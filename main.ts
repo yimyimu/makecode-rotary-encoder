@@ -57,7 +57,7 @@ namespace RotaryEncoder {
      * rotary encoder button was pressed.
      */
     //% blockId=rotary_ky_pressed_event
-    //% block="按下按键"
+    //% block="按下旋钮"
     export function onPressEvent(body: () => void): void {
         control.onEvent(pressedID, 0, body);
         control.inBackground(() => {
