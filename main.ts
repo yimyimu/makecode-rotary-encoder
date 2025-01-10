@@ -8,9 +8,9 @@ let rotatedRightID = 5602;
 let rotateReady = true;
 
 enum RotationDirection {
-    //% blockId="Left" block="左"
+    //% blockId="Left" block="右"
     Left = 0,
-    //% blockId="Right" block="右"
+    //% blockId="Right" block="左"
     Right = 1
 }
 
