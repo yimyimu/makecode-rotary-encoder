@@ -16,7 +16,7 @@ enum RotationDirection {
 
 //% color=50 weight=22
 //% icon="\uf01e"
-//% blockId="RotaryEncoder" block="旋转电位器模块"
+//% blockId="RotaryEncoder" block="旋转编码器模块"
 namespace RotaryEncoder {
 
     /**
@@ -76,7 +76,7 @@ namespace RotaryEncoder {
      * initialises local variables and enables the rotary encoder.
      */
     //% blockId=rotary_ky_init
-    //% block="电位器引脚 CLK %clk|DT %dt|SW %sw"
+    //% block="编码器引脚 CLK %clk|DT %dt|SW %sw"
     //% icon="\uf1ec"
     export function init(clk: DigitalPin, dt: DigitalPin, sw: DigitalPin): void {
         ri = clk;
